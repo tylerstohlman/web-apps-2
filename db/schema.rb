@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2022_02_11_223236) do
     t.string "last_name"
     t.string "email"
     t.string "phone_number"
-    t.integer "company_id"
+    t.string "company_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
